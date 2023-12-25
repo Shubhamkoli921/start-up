@@ -26,10 +26,10 @@ const Home = () => {
 
                 <div className='w-full m-auto lg:h-screen h-full p-2 -mb-4'> 
                 <h1 className='flex mt-6 w-full m-auto text-6xl justify-center font-extrabold uppercase'>Want To Know, Who We Are ?</h1>
-                    <div className='flex justify-between h-full w-full'>
+                    <div className='flex flex-col lg:flex-row  justify-between h-full w-full'>
                         <div className='flex justify-center w-full h-full items-center lg:max-w-[800px]  m-auto'>
                             <div className='mt-2 p-4'>
-                                <p className='lg:text-4xl text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptas!
+                                <p className='lg:text-4xl text-xl text-pretty mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptas!
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, excepturi impedit. Ducimus, vero id commodi accusamus sint illo </p>
                             </div>
                         </div>
@@ -44,6 +44,7 @@ const Home = () => {
                 </div>
 
                 <div className='w-full m-auto p-4 lg:h-screen h-full mt-8'>
+                <h1 className='flex justify-center items-center uppercase text-6xl font-extrabold mt-6  mb-6'>Alone we can do so little, together we can do so much.</h1>
                     <div className='flex  p-4 rounded-2xl shadow-xl shadow-black lg:w-[1500px] m-auto'>
                         <div className='flex flex-col justify-center w-full h-full items-center m-auto'>
                             <h1 className='lg:text-6xl text-md w-full text-center'>Innovate with us </h1>
@@ -70,8 +71,14 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='w-full m-auto lg:h-screen h-full  mt-6 '>
-                    <h1 className='flex mt-6 w-full m-auto text-6xl justify-center font-extrabold'>Meet Our Leadership Team</h1>
+                <div className='mt-8 lg:w-[1300px] m-auto'>
+                <button className=" btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_2px_0px_rgb(0,0,0)]  bg-white ease-out hover:translate-y-1 transition-all roundedm-2 p-4 flex justify-center items-center shadow-black text-white rounded-xl cursor-pointer duration-500 bg-gradient-to-br to-indigo-500 via-purple-700 from-violet-500 bg-size-200 hover:bg-right-bottom w-full -mt-5 mb-6">Contact Us</button>
+                
+                
+                </div>
+
+                <div className='w-full m-auto lg:h-screen h-full  mt-16 '>
+                    <h1 className='flex mt-6 w-full m-auto text-6xl justify-center font-extrabold mb-4'>Meet Our Leadership Team</h1>
 
                     <div className='w-full h-full -mt-10 justify-center items-center lg:flex grid grid-cols-2'>
                         <div className='lg:h-[170px] h-[100px] lg:w-full  bg-gradient-to-br to-indigo-500 via-purple-700 from-violet-500 absolute'></div>
@@ -124,9 +131,7 @@ const Home = () => {
 
 
                     </div>
-                    <button className=" btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_2px_0px_rgb(0,0,0)]  bg-white ease-out hover:translate-y-1 transition-all roundedm-2 p-4 flex justify-center items-center shadow-black text-white rounded-xl cursor-pointer duration-500 bg-gradient-to-br to-indigo-500 via-purple-700 from-violet-500 bg-size-200 hover:bg-right-bottom w-full -mt-5">Contact Us</button>
-                
-                    <h1 className='flex justify-center items-center uppercase text-4xl font-extrabold mt-6'>Alone we can do so little, together we can do so much.</h1>
+                   
                 </div>
 
             </div>
