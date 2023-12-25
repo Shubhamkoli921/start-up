@@ -1,3 +1,4 @@
+
 .card {
     width: 300px;
     height: 350px;
@@ -58,4 +59,19 @@
   .card__content {
     padding: 10px;
     color: #323232;
+  }
+
+  /* responsive css  */
+
+  @media only screen and (max-width: 600px) {
+    .card{
+        height: 200px;
+        width: 150px;
+    }
+    .card::after{
+        width: 150px;
+    }
+    .card::before{
+        height: 200px;
+    }
   }
