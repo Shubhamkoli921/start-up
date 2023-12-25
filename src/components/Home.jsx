@@ -24,8 +24,8 @@ const Home = () => {
                     <FaArrowDown className='animate-bounce flex justify-center items-center w-[100px] m-auto bg-white' size={30} />
                 </div>
 
-                <div className='w-full m-auto lg:h-screen h-full p-2 -mb-4'>
-                    <h1 className='flex justify-center items-center lg:text-8xl mt-10'>Who we are <span className='text-red-400 ml-2'>?</span></h1>
+                <div className='w-full m-auto lg:h-screen h-full p-2 -mb-4'> 
+                <h1 className='flex mt-6 w-full m-auto text-6xl justify-center font-extrabold uppercase'>Want To Know, Who We Are ?</h1>
                     <div className='flex justify-between h-full w-full'>
                         <div className='flex justify-center w-full h-full items-center lg:max-w-[800px]  m-auto'>
                             <div className='mt-2 p-4'>
