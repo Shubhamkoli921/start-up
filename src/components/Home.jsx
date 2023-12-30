@@ -1,140 +1,210 @@
 import React from 'react'
-import { FaArrowDown, FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import landing from '../assets/maximice_only_logo_white-removebg-preview.png'
+import '../css/info-card.css'
+import pngfile from '../assets/maximice_logo_white-removebg-preview.png'
+// import whowe from '../assets/whowe-removebg-preview.png'
+import webd from '../assets/webdev-removebg-preview.png'
+import logo from '../assets/31530356_bird_2-removebg-preview.png'
+import webdes from '../assets/28695260_site_design_2-removebg-preview.png'
+import bg from '../assets/image-removebg.png'
+import aboutback from '../assets/boutback.jpg'
+// import aboutfront from '../assets/image1.jpg'
+import abouttop from '../assets/image.jpg'
+import mrketing from '../assets/27953109_marketing16-removebg-preview.png'
 import '../css/style.css'
-import whoweare from '../assets/whoweare.jpg'
-import shubham from '../assets/shubham.jpg'
-import omkar from '../assets/omkar.jpeg'
-import rakesh from '../assets/rakesh.jpeg'
-// import shubhangi from '../assets/shubhangi.jpeg'
-// import InfoCard from './infocard';   
+import about from '../assets/boutback-removebg-preview.png'
+import ReactTyped from 'react-typed';
+
 const Home = () => {
     return (
         <>
-            <div className='h-full w-full p-4 bg ' >
-                <div className='w-full m-auto p-2 h-screen border-4 rounded-xl border-slate-500 shadow-black shadow-xl'>
-                    <div className='flex justify-center md:flex-col absolute right-0 p-4 mr-6 h-full'>
-                        <FaInstagramSquare size={30} className="m-0 text-orange-600 cursor-pointer" />
-                        <FaLinkedin size={30} className='text-blue-600 cursor-pointer' />
-                        <FaWhatsappSquare size={30} className='text-green-600 cursor-pointer' />
+            <div className='w-full h-full m-auto bg-black'>
+                <div className="w-full m-auto  h-screen bg-gradient-to-t from-black to-black">
+                    <img src={bg} className='w-full absolute object-cover h-full ' alt="dfsf" />
+                    <div className='flex justify-between'>
+                        <div className='flex w-full items-center'>
+                            <img src={pngfile} className='w-[50px]' alt="" />
+                            <span className='ml-2 font-bold text-white cursor-pointer relative'>Maximice.Ass.in</span>
+                        </div>
+                        <div className='flex mt-2 cursor-pointer '>
+                            <FaFacebookSquare size={25} className='text-white cursor-pointer m-1 relative ' />
+                            <FaInstagramSquare size={25} className='text-white cursor-pointer m-1 relative' />
+                            <FaLinkedin size={25} className='text-white cursor-pointer m-1 relative' />
+                            <FaWhatsappSquare size={25} className='text-white cursor-pointer m-1 relative' />
+                        </div>
                     </div>
-                    <div className='w-full h-full flex flex-col justify-center items-center'>
-                        <h1 className='md:text-8xl text-4xl underline'>Maximice<span className='text-red-400 underline'>.</span>com </h1>
-                        <span className='md:text-2xl text-sm mt-4 font-extrabold animate-pulse'>Leverage Your Business</span>
-                    </div>
-                    <FaArrowDown className='animate-bounce flex justify-center items-center w-[100px] m-auto bg-white' size={30} />
-                </div>
+                    {/* <img src={bg} alt='' /> */}
 
-                <div className='w-full m-auto lg:h-screen h-full p-2 -mb-4'> 
-                <h1 className='flex mt-6 w-full m-auto text-6xl justify-center font-extrabold uppercase'>Want To Know, Who We Are ?</h1>
-                    <div className='flex flex-col lg:flex-row  justify-between h-full w-full'>
-                        <div className='flex justify-center w-full h-full items-center lg:max-w-[800px]  m-auto'>
-                            <div className='mt-2 p-4'>
-                                <p className='lg:text-4xl text-xl text-pretty mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, voluptas!
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, excepturi impedit. Ducimus, vero id commodi accusamus sint illo </p>
+                    <div class="area" >
+                        <ul class="circles">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div >
+
+                    <div className='flex w-full p-2'>
+
+                        <div className='flex w-full items-center justify-center flex-col max-w-[1300px] m-auto p-2'>
+
+                            <div className='font-bold flex justify-center h-full w-full flex-col text-gray-500 relative    '>
+                                <h1 className='text-8xl drop-shadow-2xl contrast-100 font-bold text-[#cba02e]'>Maximice Associates</h1>
+                                <p className='mt-1 text-md'> <ReactTyped
+                                    strings={["Leverage Your Business", "Seamless Solution", "Designer"]}
+                                    typeSpeed={50}
+                                    loop
+                                    backSpeed={20}
+                                    cursorChar="."
+                                    showCursor={true}
+                                /></p>
+                                <p className='text-white text-md mt-1 mb-2   '> Web Developement <span className='text-[#cba02e]'>|</span> Digital Marketing <span className='text-[#cba02e]'>|</span> Logo Design</p>
+
+                                <div className='flex gap-2 cursor-pointer relative'>
+                                    <button className='text-white p-4  w-[120px] ease-in-out duration-300 bg-[#cba02e] cursor-pointer rounded-md hover:bg-transparent hover:text-[#cba02e]'>Explore</button>
+                                    <button className='text-white p-4  w-[120px] ease-in-out duration-300  cursor-pointer rounded-md hover:bg-transparent '>Contact</button>
+                                </div>
                             </div>
                         </div>
-                        <div className='justify-center items-center flex lg:max-w-[200px] m-auto'>
+                        <div className='w-full flex justify-center items-center'>
+                            <img src={landing} className=' relative w-[300px]' alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='w-full m-auto h-screen bg-gradient-to-b from-black to-gray-900'>
+
+                    <img src={aboutback} className='h-screen bg-gradient-to-t from-gray-900 to-black w-full absolute object-cover' alt="" />
+                    <div className='grid grid-cols-2 max-w-[1200px] relative p-2 m-auto text-white'>
+                        <div className='flex w-full justify-center items-center h-full'>
+                            <img src={about} className='w-full h-full' alt="" />
+                        </div>
+                        <div className='flex flex-col w-full justify-center h-full'>
+                            <h1 className='text-[#cba02e] text-3xl font-bold font-sans'>
+                                Welcome to Maximice Associates
+
+                            </h1>
+                            <p className='text-gray-400 mt-3 text-xl'>100% Trusted and Registered Company in Pune Maharashtra India, with a professional website that provides the best web development and web design services. We are a company that offers multi-functional web portals, and we make sure that a well-developed and attractive website can help our clients to record ROI-driven results.</p>
+                            <p>Want to Know More ...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='w-full m-auto h-screen bg-gradient-to-t from-black to-gray-900'>
+                    <img src={abouttop} className=' object-cover absolute w-[100%] h-full' alt="" />
+                    <h1 className='text-[#cba02e] font-bold text-4xl text-center ml-2 relative mt-2'>our services</h1>
+                    <div className='flex max-w-[1200px] m-auto items-center justify-center p-2 gap-2 text-gray-400'>
+                        <div class="card-container">
                             <div class="card">
-                                <img className='h-full lg:w-[200px]' src={whoweare} alt="" />
-                                <div class="card__content">
+                                <div class="img-content">
+                                    <div className='flex flex-col items-center w-full  h-[200px] justify-center'>
+                                        <h1 className='border-2 rounded-lg p-2  border-amber-500 cursor-pointer text-gray-400'>Web Design</h1>
+                                        <img src={webdes} className='w-[100px] ' alt="" />
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="heading">Card Hover</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipii
+                                        voluptas ten mollitia pariatur odit, ab
+                                        minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                                        necessitatibus dignissimos molestias.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="img-content">
+                                    <div className='flex flex-col items-center w-full h-[200px] justify-center'>
+                                        <h1 className='border-2 rounded-lg p-2  border-amber-500 cursor-pointer text-gray-400'>Digital Marketing</h1>
+                                        <img src={mrketing} className='w-[100px] ' alt="" />
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="heading">Card Hover</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipii
+                                        voluptas ten mollitia pariatur odit, ab
+                                        minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                                        necessitatibus dignissimos molestias.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="img-content">
+                                    <div className='flex flex-col items-center w-full h-[200px] justify-center'>
+                                        <h1 className='border-2 rounded-lg p-2  border-amber-500 cursor-pointer text-gray-400'>Logo Design</h1>
+                                        <img src={logo} className='w-[100px] ' alt="" />
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="heading">Card Hover</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipii
+                                        voluptas ten mollitia pariatur odit, ab
+                                        minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                                        necessitatibus dignissimos molestias.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="img-content">
+                                    <div className='flex flex-col items-center w-full h-[200px] justify-center'>
+                                        <h1 className='border-2 rounded-lg p-2  border-amber-500 cursor-pointer text-gray-400'>Web Development</h1>
+                                        <img src={webd} className='w-[100px] ' alt="" />
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="heading">Card Hover</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipii
+                                        voluptas ten mollitia pariatur odit, ab
+                                        minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                                        necessitatibus dignissimos molestias.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className='w-full m-auto p-4 lg:h-screen h-full mt-8'>
-                <h1 className='flex justify-center items-center uppercase text-6xl font-extrabold mt-6  mb-6'>Alone we can do so little, together we can do so much.</h1>
-                    <div className='flex  p-4 rounded-2xl shadow-xl shadow-black lg:w-[1500px] m-auto'>
-                        <div className='flex flex-col justify-center w-full h-full items-center m-auto'>
-                            <h1 className='lg:text-6xl text-md w-full text-center'>Innovate with us </h1>
-                            <p className='text-center mt-4 lg:text-2xl lg:text-justify text-md lg:p-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, libero?Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                            {/* <span>still  having a doubt?</span> */}
-                            <span className='text-orange-500 uppercase lg:text-5xl text-md font-extrabold mt-4 text-center'>Give us a call on</span>
-                            <span className='lg:text-3xl text-sm mt-4'>+91-9890845263</span>
-                            <span className='lg:text-2xl text-sm'>workwith@maximice.in</span>
-                        </div>
-                        <div className='w-full h-full flex justify-center items-center m-auto flex-col'>
-                            <img className='shadow-white shadow-lg lg:w-[300px] w-[100px] rounded-xl' src={shubham} alt="" />
-                            <span className='lg:text-4xl text-sm mt-4'>Shubham koli</span>
-                            <span className='text-gray-500 font-serif mt-2 text-sm'>Team Leader</span>
-                            <button className='bg-black text-gray-300 lg:w-[200px] w-[100px] p-2 mt-2 text-sm font-sans'>Contact Us</button>
-
-                            <div className='flex rounded-full lg:mt-4 gap-2 lg:gap-4 p-2 lg:w-[200px] w-[80px]'>
-                                <FaInstagramSquare size={30} className="m-0 sm:w-[50px] text-orange-600 cursor-pointer" />
-                                <FaLinkedin size={30} className='text-blue-600 cursor-pointer' />
-                                <FaWhatsappSquare size={30} className='text-green-600 cursor-pointer' />
-                                <FaFacebookSquare size={30} className='text-blue-800 cursor-pointer' />
+                    <div className=' text-white bg-transparent relative w-full m-auto'>
+                        {/* <h1 className='text-4xl text-center uppercase text-[#cba02e] font-bold'>Our Achievements</h1> */}
+                        <p className='text-center text-xl mt-4 p-4 text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi accusamus, asperiores aut a eveniet est sit doloremque laborum facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur cupiditate obcaecati architecto quia molestiae incidunt quod blanditiis sapiente aut! Dignissimos laboriosam fuga vel. Magnam illum cupiditate rerum sapiente tempora.</p>
+                        <div className='flex w-full items-center justify-around mt-4'>
+                            <div className=' flex flex-col w-full h-full items-center justify-center'>
+                                <span className='text-orange-500 font-bold text-2xl'>+10</span>
+                                <p className='text-xl uppercase text-gray-400'>Web Developement</p>
                             </div>
-                            <span className='lg:text-2xl text-sm'>www.Maximice.in</span>
+                            <div className=' flex flex-col w-full h-full items-center justify-center'>
+                                <span className='text-rose-500 font-bold text-2xl'>+22</span>
+                                <p className='text-xl uppercase text-gray-400'>Logo Design</p>
+                            </div>
+                            <div className=' flex flex-col w-full h-full items-center justify-center'>
+                                <span className='text-green-600 font-bold text-2xl'>+02</span>
+                                <p className='text-xl uppercase text-gray-400'>App Developement</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div className='mt-8 lg:w-[1300px] m-auto'>
-                <button className=" btn shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_2px_0px_rgb(0,0,0)]  bg-white ease-out hover:translate-y-1 transition-all roundedm-2 p-4 flex justify-center items-center shadow-black text-white rounded-xl cursor-pointer duration-500 bg-gradient-to-br to-indigo-500 via-purple-700 from-violet-500 bg-size-200 hover:bg-right-bottom w-full -mt-5 mb-6">Contact Us</button>
-                
-                
+                <div className='w-full m-auto h-screen '>
+                <img src={aboutback} className='h-screen  w-full absolute object-cover' alt="" />
                 </div>
-
-                <div className='w-full m-auto lg:h-screen h-full  mt-16 '>
-                    <h1 className='flex mt-6 w-full m-auto text-6xl justify-center font-extrabold mb-4'>Meet Our Leadership Team</h1>
-
-                    <div className='w-full h-full -mt-10 justify-center items-center lg:flex grid grid-cols-2'>
-                        <div className='lg:h-[170px] h-[100px] lg:w-full  bg-gradient-to-br to-indigo-500 via-purple-700 from-violet-500 absolute'></div>
-                        {/* <div className='flex flex-col'> */}
-
-
-                        <div className='flex m-2 relative flex-col  '>
-                            <img className='w-[190px]  -mt-0 rounded-xl' src={shubham} alt="" />
-                            <div className='flex justify-center items-center flex-col '>
-                                <h1 className='text-sm text-gray-800'>Shubham koli </h1>
-                                <span className='text-gray-500'>&#40; Founder & CEO &#41;</span>
-                            </div>
-                        </div>
-                        <div className='flex m-2 relative flex-col  '>
-                            <img className='w-[190px]  mt-14 rounded-xl' src={rakesh} alt="" />
-                            <div className='flex justify-center items-center flex-col '>
-                                <h1 className='text-sm text-gray-800'>Shubham koli </h1>
-                                <span className='text-gray-500'>&#40; Founder & CEO &#41;</span>
-                            </div>
-                        </div>
-
-                        <div className='flex m-2 relative flex-col  '>
-                            <img className='w-[190px]  -mt-0 rounded-xl' src={omkar} alt="" />
-                            <div className='flex justify-center items-center flex-col '>
-                                <h1 className='text-sm text-gray-800'>Shubham koli </h1>
-                                <span className='text-gray-500'>&#40; Founder & CEO &#41;</span>
-                            </div>
-                        </div>
-                        <div className='flex m-2 relative flex-col  '>
-                            <img className='w-[190px]  mt-14 rounded-xl' src={shubham} alt="" />
-                            <div className='flex justify-center items-center flex-col '>
-                                <h1 className='text-sm text-gray-800'>Shubham koli </h1>
-                                <span className='text-gray-500'>&#40; Founder & CEO &#41;</span>
-                            </div>
-                        </div>
-                        <div className='flex m-2 relative flex-col  '>
-                            <img className='w-[190px]  -mt-0 rounded-xl' src={shubham} alt="" />
-                            <div className='flex justify-center items-center flex-col '>
-                                <h1 className='text-sm text-gray-800'>Shubham koli </h1>
-                                <span className='text-gray-500'>&#40; Founder & CEO &#41;</span>
-                            </div>
-                        </div>
-                        <div className='flex m-2 relative flex-col  '>
-                            <img className='w-[190px]  mt-16 rounded-xl' src={shubham} alt="" />
-                            <div className='flex justify-center items-center flex-col '>
-                                <h1 className='text-sm text-gray-800'>Shubham koli </h1>
-                                <span className='text-gray-500'>&#40; Founder & CEO &#41;</span>
-                            </div>
-                        </div>
-
-
-                    </div>
-                   
-                </div>
-
             </div>
+
+
+
         </>
     )
 }

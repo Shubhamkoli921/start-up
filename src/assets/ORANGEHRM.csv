@@ -1,0 +1,37 @@
+OS: Windows 10 | Browser: Chrome 119 | Resolution: 1360x728 | Time: 28 Dec 2023 / 18:15:11  GMT+5:30
+Step,Data,Exp Result,XPath,cssSelector
+Open website,https://opensource-demo.orangehrmlive.com/web/index.php/auth/login,,,
+Click on "Username",,,//input[@placeholder='Username'],input[placeholder='Username']
+Enter "Admin" into "Username",Admin,,//input[@placeholder='Username'],input[placeholder='Username']
+Enter "******" into "Password",******,,//input[@placeholder='Password'],input[placeholder='Password']
+Click on "Login",,,//button[normalize-space()='Login'],button[type='submit']
+Scroll down,,,,
+Scroll up,,,,
+Click on "Time at Work",,,//p[normalize-space()='Time at Work'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2)
+Click on "12h 6m Today",,,//i[@class='oxd-icon bi-stopwatch'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > button:nth-child(2) > i:nth-child(1)
+Click on "Type here",,,//textarea[@placeholder='Type here'],textarea[placeholder='Type here']
+Enter "HEllo Good Afternoon" into "Type here",HEllo Good Afternoon,,//textarea[@placeholder='Type here'],textarea[placeholder='Type here']
+Click on "In",,,//button[normalize-space()='In'],button[type='submit']
+Reload,,,,
+Click on "hh:mm",,,//input[@placeholder='hh:mm'],input[placeholder='hh:mm']
+Click on "am",,,//input[@name='am'],input[value='AM']
+Click on "Out",,,//button[normalize-space()='Out'],button[type='submit']
+Click on "Punch out Time Should Be Later",,,//div[4]//div[1]//span[1],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > form:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > span:nth-child(3)
+Click on "Punch out Time Should Be Later",,,//div[4]//div[1]//span[1],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > form:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > span:nth-child(3)
+Click on "DatePunch out Time Should Be L",,,//i[@class='oxd-icon bi-calendar oxd-date-input-icon'],.oxd-icon.bi-calendar.oxd-date-input-icon
+Click on "29",,,//div[contains(text(),'29')],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > form:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(29) > div:nth-child(1)
+Click on "Out",,,//button[normalize-space()='Out'],button[type='submit']
+Reload,,,,
+Click on "Admin",,,//span[normalize-space()='Admin'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > aside:nth-child(1) > nav:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) > span:nth-child(2)
+Scroll down,,,,
+Scroll up,,,,
+Click on "System UsersUsernameUser Role-",,,//div[@class='oxd-layout-context'],.oxd-layout-context
+Click on "PIM",,,//span[normalize-space()='PIM'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > aside:nth-child(1) > nav:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1) > span:nth-child(2)
+Click on "Type for hints...",,,//div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--focus']//input[@placeholder='Type for hints...'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > form:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(2)
+Click on "client brand banner",,,//img[@alt='client brand banner'],img[alt='client brand banner']
+Click on "Paul Collings",,,//span[@class='oxd-userdropdown-tab'],.oxd-userdropdown-tab
+Click on "Dashboard",,,//a[normalize-space()=''],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > aside:nth-child(1) > nav:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1)
+Click on "(12) Leave Requests to Approve",,,//p[normalize-space()='(12) Leave Requests to Approve'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > p:nth-child(2)
+Click on "Dashboard",,,//span[normalize-space()='Dashboard'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > aside:nth-child(1) > nav:nth-child(1) > div:nth-child(2) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1) > span:nth-child(2)
+Click on "Paul Collings",,,//i[@class='oxd-icon bi-caret-down-fill oxd-userdropdown-icon'],.oxd-icon.bi-caret-down-fill.oxd-userdropdown-icon
+Click on "Logout",,,//a[normalize-space()='Logout'],body > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > header:nth-child(2) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1)
